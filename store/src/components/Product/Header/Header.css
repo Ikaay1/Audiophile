@@ -1,0 +1,60 @@
+@media screen and (min-width: 300px) and (max-width: 759px) {
+  .producthero {
+    background-color: #191919;
+    padding-top: 1.2rem;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .productback {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 2rem 2rem;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1319px) {
+  .producthero {
+    background-color: #191919;
+    padding-top: 1.2rem;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    /* overflow: hidden; */
+  }
+
+  .productback {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 2rem 2rem;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .producthero {
+    background-color: #191919;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+  }
+
+  .productback {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 2rem 8rem;
+    cursor: pointer;
+  }
+}

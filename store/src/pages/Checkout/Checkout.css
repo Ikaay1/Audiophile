@@ -1,0 +1,1338 @@
+@media screen and (min-width: 300px) and (max-width: 759px) {
+  .checkout {
+    background: #f1f1f1;
+    background-blend-mode: normal;
+  }
+
+  .checkoutflex {
+    padding: 0rem 1rem 0rem 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .checkoutform {
+    width: 100%;
+    background: #fff;
+    background-blend-mode: normal;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .checkoutform > p {
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+    margin-bottom: 2.5rem;
+  }
+
+  .shippinginfo,
+  .billingdetails {
+    margin-bottom: 2rem;
+  }
+
+  .shippinginfo > p,
+  .billinginfo > p,
+  .paymentinfo > p {
+    color: #d87d4a;
+    font-family: "Manrope-Bold";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9285714px;
+    margin-bottom: 0.7rem;
+  }
+
+  .billingdetails p,
+  .shippingflex p,
+  .saddress p,
+  .paymentmethod > p,
+  .cardnum p {
+    font-family: "Manrope-Bold";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.21428572px;
+    margin-bottom: 0.38rem;
+  }
+
+  label {
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+  }
+
+  .billingdetails > div:not(.bphone),
+  .saddress,
+  .szip,
+  .sstate {
+    margin-bottom: 1.5rem;
+  }
+
+  .billingdetails > div > input,
+  .shippingflex > div > input {
+    width: 100%;
+  }
+
+  input {
+    opacity: 0.4;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+    border-radius: 8px;
+    border: 1px solid #cfcfcf;
+    background: #ffffff;
+    background-blend-mode: normal;
+    padding: 0.8rem;
+  }
+
+  .saddress > input {
+    width: 100%;
+  }
+
+  .paymentmethod > p {
+    margin-bottom: 1rem;
+  }
+
+  .paymentmethod {
+    margin-bottom: 1.4rem;
+  }
+
+  .paymentmethod > div > div {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #cfcfcf;
+    background: #ffffff;
+    background-blend-mode: normal;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .emoney {
+    margin-bottom: 0.7rem;
+  }
+
+  .cardnum > div > input {
+    width: 100%;
+  }
+
+  input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+
+  .summary {
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    height: 100%;
+  }
+
+  .summary > p {
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.2857143px;
+    margin-bottom: 2rem;
+  }
+
+  .checkoutitem {
+    margin-bottom: 1.45rem;
+  }
+
+  .checkoutproductflex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+  }
+
+  .checkoutproduct {
+    display: flex;
+    width: 80%;
+  }
+
+  .checkoutimagecontainer {
+    width: 65px;
+    height: 60px;
+    border-radius: 8px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  .checkoutimagecontainer > img {
+    width: 32px;
+    height: 36px;
+    object-fit: cover;
+  }
+
+  .checkoutdesc {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .checkoutdesc > div {
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkoutdesc > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkoutamount {
+    width: 10%;
+  }
+
+  .checkoutamount > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+  }
+
+  .checkouttotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .checkoutgrandtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .checkouttotal > div {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkoutgrandtotal > div {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkouttotal > p {
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  .checkoutgrandtotal > p {
+    color: #d87d4a;
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  .checkoutbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Manrope;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 48px;
+    background: #d87d4a;
+    background-blend-mode: normal;
+  }
+
+  /* Thank You */
+
+  .success {
+    position: fixed;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    padding: 2rem;
+    border-radius: 8px;
+    background: #ffffff;
+    background-blend-mode: normal;
+  }
+
+  .success > img {
+    margin-bottom: 0.9rem;
+  }
+
+  .thanks {
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+    width: 79%;
+    margin-bottom: 0.8rem;
+  }
+
+  .success > p {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 1rem;
+  }
+
+  .successflex {
+    display: flex;
+    border-radius: 8px;
+    background: #f1f1f1;
+    background-blend-mode: normal;
+    margin-bottom: 1rem;
+  }
+
+  .successproductflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 55%;
+    padding: 1rem;
+    padding-left: 0;
+  }
+
+  .successproduct {
+    display: flex;
+    width: 89%;
+  }
+
+  .successimagecontainer {
+    width: 65px;
+    height: 60px;
+    border-radius: 8px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.15rem;
+  }
+
+  .successimagecontainer > img {
+    width: 32px;
+    height: 36px;
+    object-fit: cover;
+  }
+
+  .successdesc {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .successdesc > div {
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .successdesc > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .successamount {
+    width: 10%;
+  }
+
+  .successamount > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+  }
+
+  .successother {
+    width: 100%;
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.21428572px;
+    text-align: center;
+  }
+
+  .successgrandtotal {
+    background: #000000;
+    background-blend-mode: normal;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+
+  .successgrandtotal > div {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .successgrandtotal > p {
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 440px) and (max-width: 759px) {
+  .success {
+    width: 420px;
+    padding: 0.85rem;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1319px) {
+  .checkout {
+    background: #f1f1f1;
+    background-blend-mode: normal;
+  }
+
+  .checkoutflex {
+    padding: 0rem 2rem 0rem 2.5rem;
+    margin-bottom: 4rem;
+    background: #f1f1f1;
+    background-blend-mode: normal;
+  }
+
+  .checkoutform {
+    width: 100%;
+    background: #fff;
+    background-blend-mode: normal;
+    padding: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .checkoutform > p {
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+    margin-bottom: 2.5rem;
+  }
+
+  .shippinginfo,
+  .billingdetails {
+    margin-bottom: 2rem;
+  }
+
+  .shippinginfo > p,
+  .billinginfo > p,
+  .paymentinfo > p {
+    color: #d87d4a;
+    font-family: "Manrope-Bold";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9285714px;
+    margin-bottom: 0.7rem;
+  }
+
+  .billingdetails p,
+  .shippingflex p,
+  .saddress p,
+  .paymentmethod > p,
+  .cardnum p {
+    font-family: "Manrope-Bold";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.21428572px;
+    margin-bottom: 0.38rem;
+  }
+
+  label {
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+  }
+
+  .billingdetails,
+  .shippingflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .billingdetails > div,
+  .shippingflex > div {
+    width: 49.5%;
+  }
+
+  .billingdetails > div:not(.bphone),
+  .saddress,
+  .szip,
+  .sstate {
+    margin-bottom: 1.5rem;
+  }
+
+  .billingdetails > div > input,
+  .shippingflex > div > input {
+    width: 100%;
+  }
+
+  input {
+    opacity: 0.4;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+    border-radius: 8px;
+    border: 1px solid #cfcfcf;
+    background: #ffffff;
+    background-blend-mode: normal;
+    padding: 0.8rem;
+  }
+
+  .saddress > input {
+    width: 100%;
+  }
+
+  .paymentmethod {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .paymentmethod > div {
+    width: 50%;
+  }
+
+  .paymentmethod > div > div {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #cfcfcf;
+    background: #ffffff;
+    background-blend-mode: normal;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .emoney {
+    margin-bottom: 0.7rem;
+  }
+
+  .cardnum {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cardnum > div {
+    width: 49.5%;
+  }
+
+  .cardnum > div > input {
+    width: 100%;
+  }
+
+  input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+
+  .summary {
+    width: 100%;
+    background-color: #fff;
+    padding: 2rem;
+    height: 100%;
+  }
+
+  .summary > p {
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.2857143px;
+    margin-bottom: 2rem;
+  }
+
+  .checkoutitem {
+    margin-bottom: 1.45rem;
+  }
+
+  .checkoutproductflex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+  }
+
+  .checkoutproduct {
+    display: flex;
+    width: 80%;
+  }
+
+  .checkoutimagecontainer {
+    width: 65px;
+    height: 60px;
+    border-radius: 8px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  .checkoutimagecontainer > img {
+    width: 32px;
+    height: 36px;
+    object-fit: cover;
+  }
+
+  .checkoutdesc {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .checkoutdesc > div {
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkoutdesc > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkoutamount {
+    width: 10%;
+  }
+
+  .checkoutamount > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+  }
+
+  .checkouttotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .checkoutgrandtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .checkouttotal > div {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkoutgrandtotal > div {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkouttotal > p {
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  .checkoutgrandtotal > p {
+    color: #d87d4a;
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  .checkoutbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Manrope;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 48px;
+    background: #d87d4a;
+    background-blend-mode: normal;
+  }
+  /* Thank You */
+
+  .success {
+    position: fixed;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    padding: 2rem;
+    border-radius: 8px;
+    background: #ffffff;
+    background-blend-mode: normal;
+  }
+
+  .success > img {
+    margin-bottom: 0.9rem;
+  }
+
+  .thanks {
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+    width: 79%;
+    margin-bottom: 0.8rem;
+  }
+
+  .success > p {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 1rem;
+  }
+
+  .successflex {
+    display: flex;
+    border-radius: 8px;
+    background: #f1f1f1;
+    background-blend-mode: normal;
+    margin-bottom: 1rem;
+  }
+
+  .successproductflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 55%;
+    padding: 1rem;
+    padding-left: 0;
+  }
+
+  .successproduct {
+    display: flex;
+    width: 89%;
+  }
+
+  .successimagecontainer {
+    width: 65px;
+    height: 60px;
+    border-radius: 8px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.15rem;
+  }
+
+  .successimagecontainer > img {
+    width: 32px;
+    height: 36px;
+    object-fit: cover;
+  }
+
+  .successdesc {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .successdesc > div {
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .successdesc > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .successamount {
+    width: 10%;
+  }
+
+  .successamount > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+  }
+
+  .successother {
+    width: 100%;
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.21428572px;
+    text-align: center;
+  }
+
+  .successgrandtotal {
+    background: #000000;
+    background-blend-mode: normal;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+
+  .successgrandtotal > div {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .successgrandtotal > p {
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .checkout {
+    background: #f1f1f1;
+    background-blend-mode: normal;
+  }
+
+  .checkoutflex {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 8rem 8rem 8rem;
+    background: #f1f1f1;
+    background-blend-mode: normal;
+  }
+
+  .checkoutform {
+    width: 65%;
+    background: #fff;
+    background-blend-mode: normal;
+    padding: 2.5rem;
+  }
+
+  .checkoutform > p {
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+    margin-bottom: 2.5rem;
+  }
+
+  .shippinginfo,
+  .billingdetails {
+    margin-bottom: 2rem;
+  }
+
+  .shippinginfo > p,
+  .billinginfo > p,
+  .paymentinfo > p {
+    color: #d87d4a;
+    font-family: "Manrope-Bold";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.9285714px;
+    margin-bottom: 0.7rem;
+  }
+
+  .billingdetails p,
+  .shippingflex p,
+  .saddress p,
+  .paymentmethod > p,
+  .cardnum p {
+    font-family: "Manrope-Bold";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.21428572px;
+    margin-bottom: 0.38rem;
+  }
+
+  label {
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+  }
+
+  .billingdetails,
+  .shippingflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .billingdetails > div,
+  .shippingflex > div {
+    width: 49.5%;
+  }
+
+  .billingdetails > div:not(.bphone),
+  .saddress,
+  .szip,
+  .sstate {
+    margin-bottom: 1.5rem;
+  }
+
+  .billingdetails > div > input,
+  .shippingflex > div > input {
+    width: 100%;
+  }
+
+  input {
+    opacity: 0.4;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.25px;
+    border-radius: 8px;
+    border: 1px solid #cfcfcf;
+    background: #ffffff;
+    background-blend-mode: normal;
+    padding: 0.8rem;
+  }
+
+  .saddress > input {
+    width: 100%;
+  }
+
+  .paymentmethod {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+  }
+
+  .paymentmethod > div {
+    width: 50%;
+  }
+
+  .paymentmethod > div > div {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #cfcfcf;
+    background: #ffffff;
+    background-blend-mode: normal;
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+  }
+
+  .emoney {
+    margin-bottom: 0.7rem;
+  }
+
+  .cardnum {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cardnum > div {
+    width: 49.5%;
+  }
+
+  .cardnum > div > input {
+    width: 100%;
+  }
+
+  input[type="radio"] {
+    margin-right: 0.5rem;
+  }
+
+  /* Summary */
+
+  .summary {
+    width: 33%;
+    background-color: #fff;
+    padding: 2rem;
+    height: 100%;
+  }
+
+  .summary > p {
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.2857143px;
+    margin-bottom: 2rem;
+  }
+
+  .checkoutitem {
+    margin-bottom: 1.45rem;
+  }
+
+  .checkoutproductflex {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.9rem;
+  }
+
+  .checkoutproduct {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+  }
+
+  .checkoutimagecontainer {
+    width: 65px;
+    height: 60px;
+    border-radius: 8px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .checkoutimagecontainer > img {
+    width: 32px;
+    height: 36px;
+    object-fit: cover;
+  }
+
+  .checkoutdesc {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .checkoutdesc > div {
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkoutdesc > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkoutamount {
+    width: 10%;
+  }
+
+  .checkoutamount > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+  }
+
+  .checkouttotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .checkoutgrandtotal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-bottom: 1.7rem;
+  }
+
+  .checkouttotal > div {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkoutgrandtotal > div {
+    text-transform: uppercase;
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .checkouttotal > p {
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  .checkoutgrandtotal > p {
+    color: #d87d4a;
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-align: right;
+    text-transform: uppercase;
+  }
+
+  .checkoutbtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: Manrope;
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    height: 48px;
+    background: #d87d4a;
+    background-blend-mode: normal;
+  }
+
+  /* Thank You */
+
+  .success {
+    position: fixed;
+    z-index: 5;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 420px;
+    padding: 2rem;
+    border-radius: 8px;
+    background: #ffffff;
+    background-blend-mode: normal;
+  }
+
+  .success > img {
+    margin-bottom: 0.9rem;
+  }
+
+  .thanks {
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+    width: 79%;
+    margin-bottom: 0.8rem;
+  }
+
+  .success > p {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 1rem;
+  }
+
+  .successflex {
+    display: flex;
+    border-radius: 8px;
+    background: #f1f1f1;
+    background-blend-mode: normal;
+    margin-bottom: 1rem;
+  }
+
+  .successproductflex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 55%;
+    padding: 1rem;
+    padding-left: 0;
+  }
+
+  .successproduct {
+    display: flex;
+    width: 89%;
+  }
+
+  .successimagecontainer {
+    width: 65px;
+    height: 60px;
+    border-radius: 8px;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.15rem;
+  }
+
+  .successimagecontainer > img {
+    width: 32px;
+    height: 36px;
+    object-fit: cover;
+  }
+
+  .successdesc {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .successdesc > div {
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .successdesc > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .successamount {
+    width: 10%;
+  }
+
+  .successamount > p {
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: right;
+  }
+
+  .successother {
+    width: 100%;
+    opacity: 0.5;
+    font-family: "Manrope-Bold";
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -0.21428572px;
+    text-align: center;
+  }
+
+  .successgrandtotal {
+    background: #000000;
+    background-blend-mode: normal;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1rem;
+  }
+
+  .successgrandtotal > div {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .successgrandtotal > p {
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
