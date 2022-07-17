@@ -47,12 +47,12 @@
     background-color: #979797;
   }
 
-  .heroflex {
+  /* .heroflex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+  } */
 
   .heroflex {
     display: flex;
@@ -126,7 +126,7 @@
   }
 
   .heroflex > img {
-    width: 410px;
+    width: 90%;
     height: 420px;
     object-fit: cover;
     /* transform: translateY(-20%); */
