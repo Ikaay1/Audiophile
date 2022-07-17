@@ -108,12 +108,14 @@ const Navbar = () => {
       <div className="rectangle"></div>
       {openMenu ? <div className="mode"></div> : null}
 
-      <Fade top when={openMenu}>
-        <div className="mobile">
-          <Shop />
-          <div className="white"></div>
-        </div>
-      </Fade>
+      {openMenu ? (
+        <Fade top when={openMenu}>
+          <div className="mobile">
+            <Shop />
+            <div className="white"></div>
+          </div>
+        </Fade>
+      ) : null}
 
       {openCart ? (
         <div>
