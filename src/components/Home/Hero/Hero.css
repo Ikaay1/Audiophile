@@ -1,0 +1,396 @@
+@media screen and (min-width: 300px) and (max-width: 759px) {
+  .hero {
+    background-color: #191919;
+    padding-top: 1.2rem;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.2rem;
+    position: relative;
+    z-index: 3;
+  }
+
+  .navlinks {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .tabham {
+    display: flex;
+  }
+
+  .audiotab {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hamburger > img {
+    margin-bottom: 0.2rem;
+  }
+
+  .navgroup {
+    display: none;
+  }
+
+  .rectangle {
+    height: 0.1px;
+    background-color: #979797;
+  }
+
+  /* .heroflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .heroflex {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .heroflex > div {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    position: absolute;
+    /* height: 500px; */
+    /* height: 50%; */
+  }
+
+  .newproduct {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 10px;
+    margin-bottom: 0.6rem;
+    text-align: center;
+    opacity: 0.4963815;
+  }
+
+  .headphoneheader {
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 1.25px;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    line-height: 2.5rem;
+    text-align: center;
+    font-family: "Manrope-Bold";
+  }
+
+  .headphonedetails {
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 0px;
+    margin-bottom: 1.9rem;
+    text-align: center;
+    opacity: 0.75;
+    font-family: "Manrope-Medium";
+  }
+
+  .seeproduct {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #d87d4a;
+    opacity: 100%;
+    border: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 250px;
+    margin: 0 auto;
+    font-family: "Manrope-Bold";
+    text-transform: uppercase;
+  }
+
+  .heroflex > img {
+    width: 90%;
+    height: 420px;
+    object-fit: cover;
+    /* transform: translateY(-20%); */
+  }
+}
+
+/* @media screen and (min-width: 550px) and (max-width: 759px) {
+  .heroflex > div {
+    transform: translateY(-45%);
+    width: 80%;
+  }
+} */
+
+@media screen and (min-width: 760px) and (max-width: 1319px) {
+  .hero {
+    background-color: #191919;
+    padding-top: 1.2rem;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    /* overflow: hidden; */
+  }
+
+  /* navbar */
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.2rem;
+    position: relative;
+    z-index: 6;
+  }
+
+  .navlinks {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .tabham {
+    display: flex;
+  }
+
+  .audio {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 3.5rem;
+  }
+
+  .hamburger > img:not(.hamburger > img:last-child) {
+    margin-bottom: 0.2rem;
+  }
+
+  .navgroup {
+    display: none;
+  }
+
+  .rectangle {
+    height: 0.1px;
+    background-color: #979797;
+  }
+
+  /* navbar */
+
+  .heroflex {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
+  }
+
+  .heroflex > div {
+    position: relative;
+    z-index: 1;
+    width: 55%;
+    position: absolute;
+    /* height: 500px; */
+    /* height: 50%; */
+  }
+
+  .newproduct {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 10px;
+    margin-bottom: 0.6rem;
+    text-align: center;
+    opacity: 0.4963815;
+  }
+
+  .headphoneheader {
+    font-weight: 700;
+    font-size: 56px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    line-height: 3.8rem;
+    text-align: center;
+    font-family: "Manrope-Bold";
+  }
+
+  .headphonedetails {
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 0px;
+    margin-bottom: 1.9rem;
+    text-align: center;
+    opacity: 0.75;
+    font-family: "Manrope-Medium";
+  }
+
+  .seeproduct {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #d87d4a;
+    opacity: 100%;
+    border: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    width: 40%;
+    margin: 0 auto;
+    font-family: "Manrope-Bold";
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .heroflex > img {
+    width: 420px;
+    height: 450px;
+    object-fit: cover;
+    /* transform: translateY(-20%); */
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .hero {
+    background-color: #191919;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+  }
+
+  /* Navbar session */
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1.2rem;
+    position: relative;
+    z-index: 3;
+  }
+
+  .tabham {
+    display: none;
+  }
+
+  .navgroup {
+    font-weight: 700;
+
+    display: flex;
+    font-size: 13px;
+  }
+
+  .navlinks {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .navgroup > div {
+    letter-spacing: 2;
+  }
+
+  .rectangle {
+    height: 0.1px;
+    background-color: #979797;
+  }
+
+  .navgroup > div {
+    margin-right: 1rem;
+  }
+  /* Navbar Session */
+
+  .heroflex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+  }
+
+  .heroflex > div {
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .heroflex > img {
+    width: 400px;
+    height: 420px;
+    object-fit: cover;
+  }
+
+  .newproduct {
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 10px;
+    margin-bottom: 0.6rem;
+    opacity: 0.4963815;
+  }
+
+  .headphoneheader {
+    font-weight: 700;
+    font-size: 56px;
+    color: #fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.6rem;
+    line-height: 3.8rem;
+    font-family: "Manrope-Bold";
+  }
+
+  .headphonedetails {
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 0px;
+    margin-bottom: 1.9rem;
+    opacity: 0.75;
+    font-family: "Manrope-Medium";
+  }
+
+  .seeproduct {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #d87d4a;
+    opacity: 100%;
+    border: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+    width: 35%;
+    font-family: "Manrope-Bold";
+    text-transform: uppercase;
+  }
+}

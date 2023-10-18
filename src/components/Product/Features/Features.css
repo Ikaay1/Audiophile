@@ -1,0 +1,189 @@
+@media screen and (min-width: 300px) and (max-width: 759px) {
+  .productfeaturesflex {
+    padding: 2rem 1.1rem;
+  }
+
+  .productfeatures {
+    margin-bottom: 3.1rem;
+  }
+
+  .pfeaturesnamehead {
+    margin-bottom: 1.3rem;
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+  }
+
+  .productfeaturesdetails {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .productfeaturesdetails.pfeaturesdetail {
+    margin-bottom: 1.2rem;
+  }
+
+  .productfeaturesbox > p {
+    margin-bottom: 1.45rem;
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+    width: 100%;
+  }
+
+  .productfeaturesbox > div > div {
+    margin-bottom: 0.35rem;
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .productfeaturesbox > div > div > span {
+    color: #d87d4a;
+    font-family: "Manrope-Bold";
+    margin-right: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1319px) {
+  .productfeaturesflex {
+    padding: 3rem 1.5rem;
+  }
+
+  .productfeatures {
+    margin-bottom: 5rem;
+  }
+
+  .pfeaturesnamehead {
+    margin-bottom: 1.3rem;
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+  }
+
+  .productfeaturesdetails {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .productfeaturesdetails.pfeaturesdetail {
+    margin-bottom: 1.2rem;
+  }
+
+  .productfeaturesbox {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .productfeaturesbox > p {
+    margin-bottom: 1.45rem;
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+    width: 50%;
+  }
+
+  .productfeaturesbox > div {
+    width: 40%;
+  }
+
+  .productfeaturesbox > div > div {
+    margin-bottom: 0.35rem;
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .productfeaturesbox > div > div > span {
+    color: #d87d4a;
+    font-family: "Manrope-Bold";
+    margin-right: 0.9rem;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .productfeaturesflex {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+  }
+
+  .productfeatures {
+    width: 55%;
+  }
+
+  .pfeaturesnamehead {
+    margin-bottom: 1.3rem;
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+  }
+
+  .productfeaturesdetails {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .productfeaturesdetails.pfeaturesdetail {
+    margin-bottom: 1.2rem;
+  }
+
+  .productfeaturesbox {
+    width: 35%;
+  }
+
+  .productfeaturesbox p {
+    margin-bottom: 1.45rem;
+    font-family: "Manrope-Bold";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    text-transform: uppercase;
+    letter-spacing: 1.1428572px;
+  }
+
+  .productfeaturesbox > div {
+    margin-bottom: 0.35rem;
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .productfeaturesbox > div > div > span {
+    color: #d87d4a;
+    font-family: "Manrope-Bold";
+    margin-right: 0.9rem;
+  }
+}

@@ -1,0 +1,225 @@
+@media screen and (min-width: 300px) and (max-width: 759px) {
+  .shopcontainer {
+    padding: 4.5rem 1.5rem 0;
+  }
+
+  .headphone,
+  .earphone,
+  .speaker {
+    width: 100%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 8rem;
+    margin-bottom: 4rem;
+  }
+
+  .earphone {
+    margin-bottom: 0;
+  }
+
+  .speaker {
+    margin-bottom: 5rem;
+  }
+
+  .headphone > img,
+  .speaker > img,
+  .earphone > img {
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 105px;
+    top: -39%;
+    left: 35%;
+  }
+
+  .headphone > p,
+  .speaker > p,
+  .earphone > p {
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.25px;
+  }
+
+  .headphone > div,
+  .speaker > div,
+  .earphone > div {
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .shoplinks {
+    opacity: 0.5;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .headphone > div > img,
+  .speaker > div > img,
+  .earphone > div > img {
+    margin-left: 0.4rem;
+  }
+}
+
+@media screen and (min-width: 550px) and (max-width: 759px) {
+  .headphone > img,
+  .speaker > img {
+    position: absolute;
+    /* border: 1px solid black; */
+    top: -39%;
+    left: 41%;
+  }
+
+  .earphone > img {
+    /* border: 1px solid black; */
+    position: absolute;
+    top: -49%;
+    left: 38%;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1319px) {
+  .shopcontainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+    background-color: #fff;
+    padding: 8rem 6rem 0;
+  }
+
+  .headphone,
+  .earphone,
+  .speaker {
+    width: 30%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 8rem;
+  }
+
+  .headphone > img,
+  .speaker > img,
+  .earphone > img {
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 105px;
+    top: -39%;
+    left: 26%;
+  }
+
+  .headphone > p,
+  .speaker > p,
+  .earphone > p {
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.25px;
+  }
+
+  .headphone > div,
+  .speaker > div,
+  .earphone > div {
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .shoplinks {
+    opacity: 0.5;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .headphone > div > img,
+  .speaker > div > img,
+  .earphone > div > img {
+    margin-left: 0.4rem;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 950px) {
+  .shopcontainer {
+    margin-top: 4rem;
+    background-color: white;
+    padding: 4rem 1.5rem 0;
+  }
+
+  .headphone,
+  .earphone,
+  .speaker {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .shopcontainer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10rem 4rem 0 4rem;
+  }
+
+  .headphone,
+  .earphone,
+  .speaker {
+    width: 30%;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    height: 8rem;
+  }
+
+  .headphone > img,
+  .speaker > img,
+  .earphone > img {
+    position: absolute;
+    /* border: 1px solid black; */
+    width: 100px;
+    height: 105px;
+    top: -39%;
+    left: 36%;
+  }
+
+  .headphone > p,
+  .speaker > p,
+  .earphone > p {
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1.25px;
+  }
+
+  .headphone > div,
+  .speaker > div,
+  .earphone > div {
+    margin-bottom: 0.7rem;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 1px;
+  }
+
+  .shoplinks {
+    opacity: 0.5;
+    text-decoration: none;
+    color: #000;
+  }
+
+  .headphone > div > img,
+  .speaker > div > img,
+  .earphone > div > img {
+    margin-left: 0.4rem;
+  }
+}

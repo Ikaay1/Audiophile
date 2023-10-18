@@ -1,0 +1,266 @@
+@media screen and (min-width: 300px) and (max-width: 759px) {
+  .footercontainer {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    /* border: 1px solid; */
+    background: #101010;
+    background-blend-mode: normal;
+  }
+
+  /* footernav */
+  .footernav {
+    margin-bottom: 2.1rem;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.1rem;
+  }
+
+  .footernav > div > div {
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0.6rem;
+    text-align: center;
+  }
+
+  .footernav > div > .footerearphone {
+    margin-right: 0rem;
+  }
+
+  /* footerfollow */
+
+  .footerfollow {
+    margin-bottom: 2.5rem;
+  }
+
+  .footerfollow > p {
+    opacity: 0.5;
+    /* height: 100px; */
+    color: #ffffff;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+  }
+
+  .footerfollow > div {
+    display: none;
+  }
+
+  .footerfollow > div > img {
+    margin-left: 1.2rem;
+  }
+
+  .footerfollow > div .facebook {
+    margin-left: 0;
+  }
+
+  /* copyright */
+
+  .copyright {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .followtab {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copy .followtab > img {
+    margin-left: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1319px) {
+  .footercontainer {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* border: 1px solid; */
+    background: #101010;
+    background-blend-mode: normal;
+  }
+
+  /* footernav */
+  .footernav {
+    margin-bottom: 2.1rem;
+  }
+  .center {
+    margin-bottom: 1.1rem;
+  }
+
+  .footernav > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .footernav > div > div {
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 1.4rem;
+  }
+
+  .footernav > div > .footerearphone {
+    margin-right: 0rem;
+  }
+
+  /* footerfollow */
+
+  .footerfollow {
+    margin-bottom: 3.5rem;
+  }
+
+  .footerfollow > p {
+    opacity: 0.5;
+    /* height: 100px; */
+    color: #ffffff;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .footerfollow > div {
+    display: none;
+  }
+
+  .footerfollow > div > img {
+    margin-left: 1.2rem;
+  }
+
+  .footerfollow > div .facebook {
+    margin-left: 0;
+  }
+
+  /* copyright */
+
+  .copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .copyright {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .copy .followtab > img {
+    margin-left: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .footercontainer {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    /* border: 1px solid; */
+    background: #101010;
+    background-blend-mode: normal;
+  }
+
+  /* footernav */
+  .footernav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2.5rem;
+  }
+
+  .footernav > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .footernav > div > div {
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-right: 1.2rem;
+  }
+
+  .footernav > div > .footerearphone {
+    margin-right: 0rem;
+  }
+
+  /* footerfollow */
+
+  .footerfollow {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 3.5rem;
+  }
+
+  .footerfollow > p {
+    opacity: 0.5;
+    width: 540px;
+    /* height: 100px; */
+    color: #ffffff;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  /* .footerfollow > div {
+    border: 1px solid white;
+  } */
+
+  .footerfollow > div > img {
+    margin-left: 1.2rem;
+  }
+
+  .footerfollow > div .facebook {
+    margin-left: 0;
+  }
+
+  /* copyright */
+  .copy .followtab {
+    display: none;
+  }
+
+  .copyright {
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}

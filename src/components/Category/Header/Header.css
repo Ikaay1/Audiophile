@@ -1,0 +1,70 @@
+@media screen and (min-width: 300px) and (max-width: 759px) {
+  .categoryhero {
+    background-color: #191919;
+    padding-top: 1.2rem;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    /* overflow: hidden; */
+  }
+
+  .categoryheader {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 1.4285715px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1319px) {
+  .categoryhero {
+    background-color: #191919;
+    padding-top: 1.2rem;
+    padding-bottom: 0;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    /* overflow: hidden; */
+  }
+
+  .categoryheader {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 1.4285715px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .categoryhero {
+    background-color: #191919;
+    padding-top: 1.2rem;
+    padding-bottom: 1rem;
+    padding-right: 8rem;
+    padding-left: 8rem;
+  }
+
+  .categoryheader {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Manrope-Bold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 1.4285715px;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+}

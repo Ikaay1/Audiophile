@@ -1,0 +1,164 @@
+@media screen and (min-width: 300px) and (max-width: 759px) {
+  .advertcontainer {
+    padding-top: 5.5rem;
+    padding-bottom: 3.5rem;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .advertcontainer > img {
+    order: -1;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+  }
+
+  .advertcontainer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .advertcontainer > div > div {
+    font-family: "Manrope-Bold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 1.4285715px;
+    text-align: center;
+  }
+
+  .advertcontainer > div > div > span {
+    color: #d87d4a;
+  }
+
+  .advertcontainer > div > p {
+    opacity: 0.5;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 760px) and (max-width: 1319px) {
+  .advertcontainer {
+    padding-top: 5.5rem;
+    padding-bottom: 3.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .advertcontainer > img {
+    order: -1;
+    margin-bottom: 2.5rem;
+    width: 100%;
+    height: 540px;
+    border-radius: 8px;
+  }
+
+  .advertcontainer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .advertcontainer > div > div {
+    width: 445px;
+    height: 88px;
+    font-family: "Manrope-Bold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 1.4285715px;
+    text-align: center;
+  }
+
+  .advertcontainer > div > div > span {
+    color: #d87d4a;
+  }
+
+  .advertcontainer > div > p {
+    opacity: 0.5;
+    width: 445px;
+    height: 175px;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 950px) and (max-width: 1319px) {
+  .advertcontainer > img {
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 1320px) {
+  .advertcontainer {
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .advertcontainer > img {
+    width: 50%;
+    height: 560px;
+  }
+
+  .advertcontainer > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    gap: 1.5rem;
+  }
+
+  .advertcontainer > div > div {
+    width: 445px;
+    height: 88px;
+    font-family: "Manrope-Bold";
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 1.4285715px;
+  }
+
+  .advertcontainer > div > div > span {
+    color: #d87d4a;
+  }
+
+  .advertcontainer > div > p {
+    opacity: 0.5;
+    width: 445px;
+    height: 175px;
+    font-family: "Manrope-Medium";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+}
